@@ -1,0 +1,22 @@
+# Local secrets/configuration
+.env
+.env.*
+!.env.example
+supabase-config.js
+
+# Dependencies, generated output, and caches
+node_modules/
+dist/
+build/
+.next/
+coverage/
+.cache/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
